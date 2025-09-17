@@ -15,16 +15,15 @@ export default async function DashboardPage() {
   return (
     <>
       <DashboardHeader
-        heading="Dashboard"
-        text={`Current Role : ${user?.role} — Change your role in settings.`}
+        heading="Simulados"
       />
       <EmptyPlaceholder>
         <EmptyPlaceholder.Icon name="post" />
-        <EmptyPlaceholder.Title>No content created</EmptyPlaceholder.Title>
+        <EmptyPlaceholder.Title>Nenhum simulado disponível</EmptyPlaceholder.Title>
         <EmptyPlaceholder.Description>
-          You don&apos;t have any content yet. Start creating content.
+          Você ainda não possui simulados. Clique no botão abaixo e crie o seu primeiro para começar agora mesmo.
         </EmptyPlaceholder.Description>
-        <Button>Add Content</Button>
+        <Button>Criar novo simulado</Button>
       </EmptyPlaceholder>
     </>
   );
